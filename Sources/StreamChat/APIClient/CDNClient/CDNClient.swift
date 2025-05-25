@@ -59,7 +59,6 @@ public extension CDNClient {
     }
 }
 
-/// Customizable
 /// Default implementation of CDNClient that uses Stream CDN
 class StreamCDNClient: CDNClient {
     static var maxAttachmentSize: Int64 { 100 * 1024 * 1024 }
